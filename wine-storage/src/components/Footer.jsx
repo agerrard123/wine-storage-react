@@ -4,7 +4,7 @@ function Footer() {
     return(
         <section>
             <header>
-                <h1>Footer of the Site</h1>
+                <h1>&copy; adamgerrard</h1>
             </header>
         </section>
     );
