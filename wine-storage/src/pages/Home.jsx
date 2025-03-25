@@ -1,7 +1,5 @@
-import './App.css';
-import Tree from './components/Tree';
-import Header from './components/Header'
-import Footer from './components/Footer'
+import './css/Home.css';
+import Tree from '../components/Tree';
 
 function App() {
   return (
