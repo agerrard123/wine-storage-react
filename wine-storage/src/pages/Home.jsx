@@ -4,7 +4,6 @@ import Tree from '../components/Tree';
 function App() {
   return (
     <>
-      <Header />
       <section className="columns">
         <Tree 
           name="Live Oak"
@@ -15,10 +14,8 @@ function App() {
           description="Flowers in spring"
           image="images/dogwood-tree.jpg"/>
       </section>
-      <Footer />
     </>
   );
 }
-
 
 export default App;

@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom/client';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import './index.css';
 import Layout from './Layout';
-import Home from './Home';
-import Home from './Blog';
+import Home from './pages/Home';
+import Blog from './pages/Blog';
+import About from './pages/About';
 import Nopage from './pages/Nopage';
 
 function App() {
@@ -20,7 +21,6 @@ function App() {
       </Routes>
     </BrowserRouter>
   );
-
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

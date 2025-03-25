@@ -3,7 +3,7 @@ import './css/Nopage.css';
 function Nopage() {
     return (
         <>
-            <h1>Nopage</h1>
+            <h1>Sorry, we can't find your page</h1>
         </>
     );
 }
