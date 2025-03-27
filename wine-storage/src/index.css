@@ -1,4 +1,21 @@
+:root {
+    --main-background-color: rgba(255, 255, 255, .7);
+    --border-color: rgb(127, 79, 36);
+}
 
+body {
+    background: url(images/hand-bottles.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+    background: var(--main-background-color);
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+}
 
 
 

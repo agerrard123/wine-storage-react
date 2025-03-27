@@ -1,5 +1,8 @@
+:root {
+    --header-color: rgb(88, 47, 14);
+}
+
 header {
-    background: lightpink;
+    color: var(--header-color);
     text-align: center;
-    padding: 10px;
 }

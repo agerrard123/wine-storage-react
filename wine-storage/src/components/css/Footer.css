@@ -1,5 +1,8 @@
+:root {
+    --footer-color: rgb(88, 47, 14);
+}
+
 footer {
-    background: lightpink;
+    color: var(--footer-color);
     text-align: center;
-    padding: 10px;
 }
