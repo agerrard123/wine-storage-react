@@ -2,6 +2,7 @@
   "name": "wine-storage-react",
   "version": "0.1.0",
   "private": false,
+  "homepage": "https://agerrard123.github.io/wine-storage-react/",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",

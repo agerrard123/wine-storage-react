@@ -3,9 +3,9 @@ import "./css/Footer.css";
 function Footer() {
     return(
         <section>
-            <header>
+            <footer>
                 <h1>&copy; adamgerrard</h1>
-            </header>
+            </footer>
         </section>
     );
 };
