@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.2114faf8.css",
-    "main.js": "/static/js/main.aa35ae69.js",
-    "index.html": "/index.html",
-    "main.2114faf8.css.map": "/static/css/main.2114faf8.css.map",
-    "main.aa35ae69.js.map": "/static/js/main.aa35ae69.js.map"
+    "main.css": "/wine-storage-react/static/css/main.efc06db2.css",
+    "main.js": "/wine-storage-react/static/js/main.59c3d104.js",
+    "index.html": "/wine-storage-react/index.html",
+    "main.efc06db2.css.map": "/wine-storage-react/static/css/main.efc06db2.css.map",
+    "main.59c3d104.js.map": "/wine-storage-react/static/js/main.59c3d104.js.map"
   },
   "entrypoints": [
-    "static/css/main.2114faf8.css",
-    "static/js/main.aa35ae69.js"
+    "static/css/main.efc06db2.css",
+    "static/js/main.59c3d104.js"
   ]
 }
