@@ -1,0 +1,27 @@
+:root {
+    --header-footer-color: rgb(88, 47, 14);
+    --news-background-color: rgba(70, 86, 35, 0.7);
+    --review-text-color: linen;
+}
+
+#news-articles {
+    border: 1px solid var(--header-footer-color);
+    background: var(--news-background-color);
+    color: var(--review-text-color);
+}
+
+.news-style {
+    background:var(--wine-block-background-color);
+    border: 1px solid var(--border-color);
+    text-align: center;
+    padding:10px;
+    margin: 30px;
+    border-radius: 5px;
+    padding-top: 50px;
+    color:#100C10;
+}
+
+.blocks {
+    display:flex;
+    flex-wrap: wrap;
+}
