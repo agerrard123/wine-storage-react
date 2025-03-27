@@ -21,3 +21,8 @@
     color:#100C10;
     margin-left: 40.4px;
 }
+
+#image {
+    max-width: 100%;
+    height: auto;
+}

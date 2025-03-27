@@ -8,11 +8,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#main-content {
-    text-align: center;
-    padding: 10px;
-}
-
 #content {
     background: var(--main-background-color);
     width: 80%;
@@ -20,11 +15,6 @@ body {
     padding: 5px;
     border: 2px solid var(--border-color);
     border-radius: 10px;
-}
-
-#image {
-    max-width: 100%;
-    height: auto;
 }
 
 @media screen and (min-width: 900px) {
@@ -48,10 +38,5 @@ body {
         text-align: center;
         padding:15px 10px;
         margin-left: 40.4px;
-    }
-
-    .blocks {
-        display: flex;
-        flex-wrap: wrap;
     }
 }
