@@ -6,8 +6,10 @@ function Navigation() {
         <nav id="main-nav">
             <ul>
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/about">About</Link></li>
-                <li><Link to="/blog">Blog</Link></li>
+                <li><Link to="/about">Your Cellar</Link></li>
+                <li><Link to="/blog">Map</Link></li>
+                <li><Link to="/blog">Wine History</Link></li>
+                <li><Link to="/blog">Reviews & Ratings</Link></li>
             </ul>
         </nav>
     );
