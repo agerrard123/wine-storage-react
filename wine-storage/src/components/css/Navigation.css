@@ -1,13 +1,32 @@
+:root {
+    --nav-background-color: #451C01;
+    --border-color: rgb(127, 79, 36);
+    --nav-color: white;
+    --nav-hover-color: rgb(127, 79, 36);
+}
+
 #main-nav ul {
-    display: flex;
+    /* display: flex; */
+    padding-left: 0px;
 }
 
 #main-nav li {
     list-style-type: none;
     padding: 5px;
-    flex: 1;
+    background:var(--nav-background-color);
+    border-bottom: 1px solid var(--border-color);
+    border-top: 1px solid var(--border-color);
+    /* flex: 1;
+    border-right: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-color); */
 }
 
 #main-nav li a {
     text-decoration: none;
+    color:var(--nav-color);
+    border-bottom:1px solid transparent;
+}
+
+#main-nav a:hover {
+    color:var(--nav-hover-color);
 }
