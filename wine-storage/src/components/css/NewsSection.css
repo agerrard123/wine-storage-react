@@ -1,5 +1,7 @@
 :root {
     --header-footer-color: rgb(88, 47, 14);
+    --news-background-color: rgba(70, 86, 35, 0.7);
+    --review-text-color: linen;
 }
 
 #news-articles-header {
@@ -7,8 +9,28 @@
     color: var(--header-footer-color);
 }
 
+#news-articles {
+    border: 1px solid var(--header-footer-color);
+    background: var(--news-background-color);
+    color: var(--review-text-color);
+}
+
+.news-style {
+    text-align: center;
+    padding:10px;
+    margin: 30px;
+    border-radius: 5px;
+    color:#100C10;
+    margin-left: 40.4px;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+}
+
 @media screen and (min-width: 900px) {
-    .blocks {
+    .news-blocks {
         display: flex;
         flex-wrap: wrap;
     }
