@@ -5,6 +5,13 @@
     --nav-hover-color: rgb(127, 79, 36);
 }
 
+#toggle-nav div {
+    width:25px;
+    height:2px;
+    background-color: var(--border-color);
+    margin: 6px 0;
+}
+
 #main-nav ul {
     /* display: flex; */
     padding-left: 0px;
@@ -29,4 +36,10 @@
 
 #main-nav a:hover {
     color:var(--nav-hover-color);
+}
+
+@media screen and (min-width: 900px) {
+    #toggle-nav {
+        display: none;
+    }
 }

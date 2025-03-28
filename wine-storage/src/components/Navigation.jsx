@@ -4,6 +4,11 @@ import './css/Navigation.css';
 function Navigation() {
     return (
         <nav id="main-nav">
+            <div id = "toggle-nav">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
             <ul>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/about">Your Cellar</Link></li>
