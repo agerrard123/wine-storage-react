@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/wine-storage-react/static/css/main.efc06db2.css",
-    "main.js": "/wine-storage-react/static/js/main.59c3d104.js",
+    "main.css": "/wine-storage-react/static/css/main.654123f0.css",
+    "main.js": "/wine-storage-react/static/js/main.1b2c16ca.js",
+    "static/media/wooden-barrels.jpg": "/wine-storage-react/static/media/wooden-barrels.f734006ef62875e829ee.jpg",
+    "static/media/hand-bottles.jpg": "/wine-storage-react/static/media/hand-bottles.ff065e207ce28cbbd77d.jpg",
     "index.html": "/wine-storage-react/index.html",
-    "main.efc06db2.css.map": "/wine-storage-react/static/css/main.efc06db2.css.map",
-    "main.59c3d104.js.map": "/wine-storage-react/static/js/main.59c3d104.js.map"
+    "main.654123f0.css.map": "/wine-storage-react/static/css/main.654123f0.css.map",
+    "main.1b2c16ca.js.map": "/wine-storage-react/static/js/main.1b2c16ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.efc06db2.css",
-    "static/js/main.59c3d104.js"
+    "static/css/main.654123f0.css",
+    "static/js/main.1b2c16ca.js"
   ]
 }
