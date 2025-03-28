@@ -39,6 +39,18 @@
 }
 
 @media screen and (min-width: 900px) {
+    
+    #main-nav ul {
+        display: flex;
+        text-align: center;
+    }
+
+    #main-nav li{
+        flex: 1;
+        border-right: 1px solid var(--border-color);
+        border-left: 1px solid var(--border-color);
+    }
+
     #toggle-nav {
         display: none;
     }

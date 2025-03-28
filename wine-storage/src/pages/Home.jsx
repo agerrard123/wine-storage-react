@@ -4,6 +4,7 @@ import NewsArticles from '../components/NewsArticles';
 import ContactUs from '../components/ContactUs';
 
 function App() {
+
   return (
     <>
       <div>

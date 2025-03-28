@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url(images/hand-bottles.jpg);
+    background: url(/public/images/hand-bottles.jpg);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -18,25 +18,5 @@ body {
 }
 
 @media screen and (min-width: 900px) {
-    .columns {
-        display: flex;
-    }
 
-    #main-nav ul {
-        display: flex;
-        text-align: center;
-    }
-
-    #main-nav li{
-        flex: 1;
-        border-right: 1px solid var(--border-color);
-        border-left: 1px solid var(--border-color);
-    }
-
-    .news-style {
-        width: 25.5%;
-        text-align: center;
-        padding:15px 10px;
-        margin-left: 40.4px;
-    }
 }
