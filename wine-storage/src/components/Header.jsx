@@ -7,7 +7,6 @@ function Header() {
             <h1>Sip & Store</h1>
             <Navigation />
         </header>
-            
     );
 };
 

@@ -1,4 +1,19 @@
+:root {
+    --home-background: rgb(182, 173, 144);
+}
+
+body {
+    background: var(--home-background);
+}
+
 #main-content {
     text-align: center;
     padding: 10px;
+}
+
+@media screen and (min-width: 900px) {
+
+    body {
+        background: url(/public/images/hand-bottles.jpg);
+    }
 }

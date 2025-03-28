@@ -27,9 +27,10 @@ function App() {
               image="images/article03.png"/>
           </section>
         </div>
-        <section>
+        <div>
+          <h2 id = "contact-us-header">Contact Us</h2>
           <ContactUs />
-        </section>
+        </div>
       </div>
     </>
   );
