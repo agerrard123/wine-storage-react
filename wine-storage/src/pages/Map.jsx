@@ -1,9 +1,12 @@
+import MapSection from '../components/MapSection';
 import './css/Map.css';
 
 function Map() {
     return (
         <>
-            <h1>Map</h1>
+            <section id = "rows">
+                <MapSection />
+            </section>
         </>
     );
 }
