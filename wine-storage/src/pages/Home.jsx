@@ -1,6 +1,7 @@
 import './css/Home.css';
 import HomeDescription from '../components/HomeDescription';
 import NewsSection from '../components/NewsSection';
+import ContactUs from '../components/ContactUs';
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
         </section>
         <section>
           <NewsSection />
+        </section>
+        <section>
+          <ContactUs />
         </section>
       </div>
     </>
