@@ -1,4 +1,33 @@
+:root {
+    --map-nav-background: rgb(166, 138, 100);
+    --border-block-color: rgb(127, 79, 36);
+}
+
 .rows {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
+}
+
+#map-nav {
+    background: var(--map-nav-background);
+    text-align: center;
+    border: 2px solid var(--border-block-color);
+    padding: 15px;
+    margin: 2px;
+    overflow: hidden;
+}
+
+#empty {
+    background: var(--map-nav-background);
+    border: 2px solid var(--border-block-color);
+    margin: 2px;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 900px) {
+
+    #map-background {
+        background: url(/public/images/wooden-barrels.jpg);
+    }
+
 }

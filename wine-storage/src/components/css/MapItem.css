@@ -1,0 +1,14 @@
+:root {
+    --map-nav-background: rgb(166, 138, 100);
+    --map-item-backgoround: rgb(182, 173, 144);
+    --border-block-color: rgb(127, 79, 36);
+}
+
+.map-item {
+    background:var(--map-item-backgoround);
+    text-align: center;
+    border: 2px solid var(--border-block-color);
+    padding: 5px;
+    margin: 2px;
+    overflow: hidden;
+}
