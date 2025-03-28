@@ -1,6 +1,6 @@
-import "./css/NewsSection.css";
+import "./css/NewsArticles.css";
 
-function NewsSection(props) {
+function NewsArticles(props) {
     return (
         <section id = "news-articles" className="news-style">
             <h3>{props.name}</h3>
@@ -10,4 +10,4 @@ function NewsSection(props) {
     )
 }
 
-export default NewsSection;
+export default NewsArticles;

@@ -1,6 +1,6 @@
 import './css/Home.css';
 import HomeDescription from '../components/HomeDescription';
-import NewsSection from '../components/NewsSection';
+import NewsArticles from '../components/NewsArticles';
 import ContactUs from '../components/ContactUs';
 
 function App() {
@@ -15,13 +15,13 @@ function App() {
         <div>
           <h2 id = "news-articles-header">News Articles</h2>
           <section className="news-blocks">
-            <NewsSection
+            <NewsArticles
               name="You Should Know the Difference Between Vermouth and Vermouth di Torino"
               image="images/article01.png"/>
-            <NewsSection
+            <NewsArticles
               name="Here's the Trick To Tell if a Riesling Is Going to Be Dry or Sweet"
               image="images/article02.png"/>
-            <NewsSection
+            <NewsArticles
               name="Is Older Wine Better Than Younger Wine? Wine Profoessionals Weigh In"
               image="images/article03.png"/>
           </section>
