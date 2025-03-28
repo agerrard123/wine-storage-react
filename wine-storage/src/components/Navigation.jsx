@@ -11,10 +11,10 @@ function Navigation() {
             </div>
             <ul>
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/about">Your Cellar</Link></li>
-                <li><Link to="/blog">Map</Link></li>
-                <li><Link to="/blog">Wine History</Link></li>
-                <li><Link to="/blog">Reviews & Ratings</Link></li>
+                <li><Link to="/cellar">Your Cellar</Link></li>
+                <li><Link to="/map">Map</Link></li>
+                <li><Link to="/history">Wine History</Link></li>
+                <li><Link to="/reviews&ratings">Reviews & Ratings</Link></li>
             </ul>
         </nav>
     );
