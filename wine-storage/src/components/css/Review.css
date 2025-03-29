@@ -1,0 +1,39 @@
+:root {
+    --reviews-background-color: rgb(69, 28, 1, .7);
+    --review-text-color: linen;
+}
+
+#reviews-background {
+    background: var(--reviews-background-color);
+}
+
+.column {
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background: var(--wine-block-background-color);
+    text-align: center;
+    padding: 5px;
+}
+
+.bottle-img {
+    text-align: center;
+    padding: 5px;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+}
+
+#review-text {
+    color: var(--review-text-color);
+}
+
+@media screen and (min-width: 900px) {
+
+    .column {
+        display: flex;
+        text-align: left;
+    }
+
+}
