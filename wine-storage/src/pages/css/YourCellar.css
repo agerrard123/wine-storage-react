@@ -1,0 +1,56 @@
+:root {
+    --nav-hover-color: rgb(127, 79, 36);
+}
+
+#img-div {
+    position:relative;
+    margin-bottom: 30px;
+}
+
+.picture {
+    text-align: center;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+}
+
+#img-div-header {
+    position:absolute;
+    margin:0;
+    bottom:4px;
+    left:0%;
+    text-align:left;
+    background:rgba(0,0,0, 0.8);
+    color:var(--nav-color);
+    padding:10px 20px;
+    display: none;
+    max-width: 50%;
+}
+
+#wine-form {
+    text-align: center;
+}
+
+#add-wine-form {
+    text-align: center;
+    padding: 5px;
+    background: var(--nav-background-color);
+    color: var(--nav-color);
+}
+
+#add-wine-form:hover {
+    color: var(--nav-hover-color);
+}
+
+@media screen and (min-width: 900px) {
+
+    #img-div-header {
+        position: absolute;
+        max-height: auto;
+        max-width: 100%;
+        display: block;
+    }
+
+}
