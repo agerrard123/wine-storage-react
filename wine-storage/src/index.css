@@ -7,6 +7,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body.map-body {
+    background: url(/public/images/wooden-barrels.jpg);
+}
+
+body.history-body {
+    background: url(/public/images/corks.jpg);
+}
+
 #content {
     background: var(--main-background-color);
     width: 80%;
@@ -18,6 +26,15 @@ body {
 
 @media screen and (min-width: 900px) {
 
+    body.home-body {
+        background: url(/public/images/hand-bottles.jpg);
+    }
 
+    body.cellar-body {
+        background: url(/public/images/vertical-grapes.jpg);
+    }
 
+    body.reviews-body {
+        background: url(/public/images/vineyard-field.jpg);
+    }
 }

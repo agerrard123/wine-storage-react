@@ -1,6 +1,6 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import ReactDOM from 'react-dom/client';
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {BrowserRouter, Routes, Route, useLocation} from "react-router-dom";
 import './index.css';
 import Layout from './Layout';
 import Home from './pages/Home';
@@ -13,9 +13,30 @@ import History03 from './pages/History03';
 import ReviewsRatings from './pages/Reviews&Ratings';
 import Nopage from './pages/Nopage';
 
+function BodyClassHandler () {
+  const location = useLocation();
+
+  useEffect(() => {
+    document.body.className = "";
+
+    if (location.pathname === "/") {
+      document.body.classList.add("home-body");
+    } else if (location.pathname.startsWith("/cellar")) {
+      document.body.classList.add("cellar-body");
+    } else if (location.pathname.startsWith("/map")) {
+      document.body.classList.add("map-body");
+    } else if (location.pathname.startsWith("/reviews&ratings")) {
+      document.body.classList.add("reviews-body");
+    } else {
+      document.body.classList.add("history-body");
+    }
+  }, [location]);
+}
+
 function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BodyClassHandler/>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
