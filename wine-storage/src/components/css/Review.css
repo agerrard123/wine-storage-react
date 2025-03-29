@@ -1,6 +1,5 @@
 :root {
     --reviews-background-color: rgb(69, 28, 1, .7);
-    --review-text-color: linen;
 }
 
 #reviews-background {
@@ -23,10 +22,6 @@
 #image {
     max-width: 100%;
     height: auto;
-}
-
-#review-text {
-    color: var(--review-text-color);
 }
 
 @media screen and (min-width: 900px) {

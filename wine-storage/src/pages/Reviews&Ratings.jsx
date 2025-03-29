@@ -12,7 +12,7 @@ function ReviewsRatings() {
                     <p>Take a look at various wine reviews from professionals,<br/> and you might even find your next favorite wine!</p>
                 </div>
             </div>
-            <div>
+            <div id = "review-text">
                 <Review
                     image = "images/review01.jpg"
                     name = "Clos des Andes Review"

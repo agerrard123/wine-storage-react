@@ -6,7 +6,7 @@ function Review(props) {
             <div class="bottle-img">
                 <img id = "image" src = {process.env.PUBLIC_URL + "/" + props.image} alt = "review pic"/>
             </div>
-            <div id = "review-text">
+            <div>
                 <h3>{props.name}</h3>
                 <p>
                     {props.paragraph1} <br/>
