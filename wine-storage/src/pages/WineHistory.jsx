@@ -1,6 +1,7 @@
 import './css/WineHistory.css';
 import SpilledWine from "../images/spilled-wine.jpg";
 import HistoryItem from '../components/HistoryItem';
+// import History01 from '/History01.jsx';
 
 function WineHistory() {
     return (
@@ -16,7 +17,7 @@ function WineHistory() {
             </div>
             <div className = "blocks">
                 <HistoryItem
-                    href = "history01.jsx"
+                    href = "history01"
                     image = "images/history01.jpg"
                     name = "Vernaccia"
                     vintage = "2022"
@@ -24,7 +25,7 @@ function WineHistory() {
                     country = "Italy"
                     region = "Toscana"/>
                 <HistoryItem
-                    href = "history02.jsx"
+                    href = "history02"
                     image = "images/history02.jpg"
                     name = "Keever"
                     vintage = "2021"
@@ -32,7 +33,7 @@ function WineHistory() {
                     country = "United States"
                     region = "California"/>
                 <HistoryItem
-                    href = "history03.jsx"
+                    href = "history03"
                     image = "images/history03.jpg"
                     name = "Star Vineyard"
                     vintage = "2021"
