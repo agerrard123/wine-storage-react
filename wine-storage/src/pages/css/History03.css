@@ -1,0 +1,42 @@
+:root {
+    --nav-background-color:#451C01;
+    --nav-color: white;
+    --nav-hover-color: rgb(127, 79, 36);
+}
+
+.tasting-notes {
+    text-align: center;
+}
+
+.bottle-img {
+    text-align: center;
+    padding: 5px;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+}
+
+#add-tasting-notes {
+    text-align: center;
+    padding: 5px;
+    background: var(--nav-background-color);
+    color: var(--nav-color);
+}
+
+#add-tasting-notes:hover {
+    color: var(--nav-hover-color);
+}
+
+@media screen and (min-width: 900px) {
+
+    .tasting-notes {
+        display: flex;
+    }
+
+    #add-tasting-notes {
+        margin-left: 0%;
+    }
+
+}

@@ -8,6 +8,8 @@ import YourCellar from './pages/YourCellar';
 import Map from './pages/Map';
 import WineHistory from './pages/WineHistory';
 import History01 from './pages/History01';
+import History02 from './pages/History02';
+import History03 from './pages/History03';
 import ReviewsRatings from './pages/Reviews&Ratings';
 import Nopage from './pages/Nopage';
 
@@ -21,6 +23,8 @@ function App() {
           <Route path = "map" element={<Map />} />
           <Route path = "history" element={<WineHistory />} />
           <Route path = "history01" element={<History01 />} />
+          <Route path = "history02" element={<History02 />} />
+          <Route path = "history03" element={<History03 />} />
           <Route path = "reviews&ratings" element={<ReviewsRatings />} />
           <Route path = "*" element={<Nopage />} />
         </Route>

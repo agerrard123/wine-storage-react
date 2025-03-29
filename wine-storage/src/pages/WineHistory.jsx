@@ -1,7 +1,6 @@
 import './css/WineHistory.css';
 import SpilledWine from "../images/spilled-wine.jpg";
 import HistoryItem from '../components/HistoryItem';
-// import History01 from '/History01.jsx';
 
 function WineHistory() {
     return (
