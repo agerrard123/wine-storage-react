@@ -1,0 +1,25 @@
+:root {
+    --wine-block-background-color: rgba(177, 143, 123, 0.7);
+    --border-color: rgb(127, 79, 36);
+}
+
+.style {
+    background:var(--wine-block-background-color);
+    border: 1px solid var(--border-color);
+    text-align: center;
+    padding:10px;
+    margin: 30px;
+    border-radius: 5px;
+    padding-top: 50px;
+    /* color:#100C10; */
+}
+
+@media screen and (min-width: 900px) {
+
+    .style, .news-style {
+        width: 25.5%;
+        text-align: center;
+        padding:15px 10px;
+        margin-left: 40.4px;
+    }
+}

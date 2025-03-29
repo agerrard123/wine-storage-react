@@ -33,4 +33,9 @@
         max-width: 100%;
         display: block;
     }
+
+    .blocks {
+        display:flex;
+        flex-wrap: wrap;
+    }
 }
