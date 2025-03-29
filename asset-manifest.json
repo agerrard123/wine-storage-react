@@ -1,15 +1,25 @@
 {
   "files": {
-    "main.css": "/wine-storage-react/static/css/main.654123f0.css",
-    "main.js": "/wine-storage-react/static/js/main.1b2c16ca.js",
+    "main.css": "/wine-storage-react/static/css/main.865a4fb6.css",
+    "main.js": "/wine-storage-react/static/js/main.8fd88bcb.js",
+    "static/media/vineyard-field.jpg": "/wine-storage-react/static/media/vineyard-field.40a9350fa98c0e041f46.jpg",
+    "static/media/vertical-grapes.jpg": "/wine-storage-react/static/media/vertical-grapes.4a6a592b6d03afbac961.jpg",
+    "static/media/black-white-field.jpg": "/wine-storage-react/static/media/black-white-field.ac77f6c6458eef52fd28.jpg",
+    "static/media/corks.jpg": "/wine-storage-react/static/media/corks.c8d566046b229a5e53a5.jpg",
     "static/media/wooden-barrels.jpg": "/wine-storage-react/static/media/wooden-barrels.f734006ef62875e829ee.jpg",
     "static/media/hand-bottles.jpg": "/wine-storage-react/static/media/hand-bottles.ff065e207ce28cbbd77d.jpg",
+    "static/media/wine-charcudery.jpg": "/wine-storage-react/static/media/wine-charcudery.06ccb4c622ebf5e81ffe.jpg",
+    "static/media/spilled-wine.jpg": "/wine-storage-react/static/media/spilled-wine.948856227439ae0c5402.jpg",
+    "static/media/grape-vine.jpg": "/wine-storage-react/static/media/grape-vine.458ba8d86979ab4a72c2.jpg",
+    "static/media/history03.jpg": "/wine-storage-react/static/media/history03.432b332ce2b3fce0db2c.jpg",
+    "static/media/history01.jpg": "/wine-storage-react/static/media/history01.be1cdd378a1cc6f052d8.jpg",
+    "static/media/history02.jpg": "/wine-storage-react/static/media/history02.59a100072438fd9a7fef.jpg",
     "index.html": "/wine-storage-react/index.html",
-    "main.654123f0.css.map": "/wine-storage-react/static/css/main.654123f0.css.map",
-    "main.1b2c16ca.js.map": "/wine-storage-react/static/js/main.1b2c16ca.js.map"
+    "main.865a4fb6.css.map": "/wine-storage-react/static/css/main.865a4fb6.css.map",
+    "main.8fd88bcb.js.map": "/wine-storage-react/static/js/main.8fd88bcb.js.map"
   },
   "entrypoints": [
-    "static/css/main.654123f0.css",
-    "static/js/main.1b2c16ca.js"
+    "static/css/main.865a4fb6.css",
+    "static/js/main.8fd88bcb.js"
   ]
 }
