@@ -1,4 +1,6 @@
 :root {
+    --nav-background-color: #451C01;
+    --nav-color: white;
     --nav-hover-color: rgb(127, 79, 36);
 }
 
