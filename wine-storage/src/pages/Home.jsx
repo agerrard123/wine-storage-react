@@ -3,7 +3,7 @@ import GrapeVine from "../images/grape-vine.jpg";
 import NewsArticles from '../components/NewsArticles';
 import ContactUs from '../components/ContactUs';
 
-function App() {
+function Home() {
 
   return (
     <>
@@ -35,4 +35,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
