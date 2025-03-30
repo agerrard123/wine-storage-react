@@ -16,7 +16,7 @@ function WineHistory() {
             </div>
             <div className = "blocks">
                 <HistoryItem
-                    href = "history01"
+                    href = "/history01"
                     image = "images/history01.jpg"
                     name = "Vernaccia"
                     vintage = "2022"
@@ -24,7 +24,7 @@ function WineHistory() {
                     country = "Italy"
                     region = "Toscana"/>
                 <HistoryItem
-                    href = "history02"
+                    href = "/history02"
                     image = "images/history02.jpg"
                     name = "Keever"
                     vintage = "2021"
@@ -32,7 +32,7 @@ function WineHistory() {
                     country = "United States"
                     region = "California"/>
                 <HistoryItem
-                    href = "history03"
+                    href = "/history03"
                     image = "images/history03.jpg"
                     name = "Star Vineyard"
                     vintage = "2021"

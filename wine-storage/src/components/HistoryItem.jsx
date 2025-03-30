@@ -1,9 +1,12 @@
 import './css/HistoryItem.css';
+import {Link} from "react-router-dom";
 
 function HistoryItem(props) {
     return (
         <section id = "wine" class = "style">
-            <a href = {props.href}><img id = "image" src = {process.env.PUBLIC_URL + "/" + props.image} alt = "history pic"/></a>
+            <Link to = {props.href}>
+                <img id = "image" src = {process.env.PUBLIC_URL + "/" + props.image} alt = "history pic"/>
+            </Link>
             <p>
                 Wine Name: {props.name} <br/>
                 Vintage: {props.vintage} <br/>
