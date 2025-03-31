@@ -7,13 +7,22 @@ function HistoryItem(props) {
             <Link to = {props.href}>
                 <img id = "image" src = {process.env.PUBLIC_URL + "/" + props.image} alt = "history pic"/>
             </Link>
-            <p>
-                Wine Name: {props.name} <br/>
-                Vintage: {props.vintage} <br/>
-                Price: ${props.price} <br/>
-                Country: {props.country} <br/>
-                Region: {props.region} <br/>
-            </p>
+            <section id = "p-container">
+                <p className = "wine-p-1">
+                    Wine Name: <br/>
+                    Vintage: <br/>
+                    Price: $<br/>
+                    Country: <br/>
+                    Region: <br/>
+                </p>
+                <p className = "wine-p-2">
+                    {props.name} <br/>
+                    {props.vintage} <br/>
+                    {props.price} <br/>
+                    {props.country} <br/>
+                    {props.region} <br/>
+                </p>
+                </section>
         </section>
     )
 }

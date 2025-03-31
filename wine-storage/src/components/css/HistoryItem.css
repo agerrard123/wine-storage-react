@@ -14,6 +14,27 @@
     /* color:#100C10; */
 }
 
+#p-container {
+    max-width: 100%;
+    height: auto;
+}
+
+#p-container {
+    display: flex;
+    justify-content: space-between;
+    width: 293px;
+    margin: auto;
+}
+
+.wine-p-1 {
+    font-weight: bold;
+}
+
+.wine-p-1, .wine-p-2 {
+    text-align: left;
+    white-space: nowrap;
+}
+
 @media screen and (min-width: 900px) {
 
     .style, .news-style {
