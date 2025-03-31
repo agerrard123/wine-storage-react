@@ -1,5 +1,6 @@
 import './css/YourCellar.css';
 import Charcuterie from "../images/wine-charcudery.jpg";
+import CellarItem from "../components/CellarItem";
 
 function YourCellar() {
     return (
@@ -14,6 +15,68 @@ function YourCellar() {
                 </section>
             </div>
             <div id = "wine-form"><button id="add-wine-form">Use this form to add wine to your cellar</button></div>
+            <div id = "wine-list" className = "blocks">
+                <CellarItem
+                    image = "images/wine01.jpg"
+                    winery = "Gundlach Bundschu"
+                    vintage = "2010"
+                    price = "40.00"
+                    country = "United States"
+                    region = "California"
+                    description = "Red Wine"
+                    grape = "Cabernet Sauvignon"
+                    location = "A1"/>
+                <CellarItem
+                    image = "images/wine01.jpg"
+                    winery = "Gundlach Bundschu"
+                    vintage = "2010"
+                    price = "40.00"
+                    country = "United States"
+                    region = "California"
+                    description = "Red Wine"
+                    grape = "Cabernet Sauvignon"
+                    location = "A1"/>
+                <CellarItem
+                    image = "images/wine01.jpg"
+                    winery = "Gundlach Bundschu"
+                    vintage = "2010"
+                    price = "40.00"
+                    country = "United States"
+                    region = "California"
+                    description = "Red Wine"
+                    grape = "Cabernet Sauvignon"
+                    location = "A1"/>
+                <CellarItem
+                    image = "images/wine01.jpg"
+                    winery = "Gundlach Bundschu"
+                    vintage = "2010"
+                    price = "40.00"
+                    country = "United States"
+                    region = "California"
+                    description = "Red Wine"
+                    grape = "Cabernet Sauvignon"
+                    location = "A1"/>
+                <CellarItem
+                    image = "images/wine01.jpg"
+                    winery = "Gundlach Bundschu"
+                    vintage = "2010"
+                    price = "40.00"
+                    country = "United States"
+                    region = "California"
+                    description = "Red Wine"
+                    grape = "Cabernet Sauvignon"
+                    location = "A1"/>
+                <CellarItem
+                    image = "images/wine01.jpg"
+                    winery = "Gundlach Bundschu"
+                    vintage = "2010"
+                    price = "40.00"
+                    country = "United States"
+                    region = "California"
+                    description = "Red Wine"
+                    grape = "Cabernet Sauvignon"
+                    location = "A1"/>
+            </div>
         </>
     );
 }

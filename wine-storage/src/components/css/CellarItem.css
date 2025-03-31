@@ -1,0 +1,57 @@
+.style {
+    background:var(--wine-block-background-color);
+    border: 1px solid var(--border-color);
+    text-align: center;
+    padding:10px;
+    margin: 30px;
+    border-radius: 5px;
+    padding-top: 50px;
+    color:#100C10;
+}
+
+#image, #p-container {
+    max-width: 100%;
+    height: auto;
+}
+
+#wine-form {
+    text-align: center;
+}
+
+#remove-wine-form {
+    text-align: center;
+    padding: 5px;
+    background: var(--nav-background-color);
+    color: var(--nav-color);
+}
+
+#remove-wine-form:hover {
+    color: var(--nav-hover-color);
+}
+
+#p-container {
+    display: flex;
+    justify-content: space-between;
+    width: 293px;
+    margin: auto;
+}
+
+.wine-p-1 {
+    font-weight: bold;
+}
+
+.wine-p-1, .wine-p-2 {
+    text-align: left;
+    white-space: nowrap;
+}
+
+@media screen and (min-width: 900px) {
+
+    .style {
+        width: 25.5%;
+        text-align: center;
+        padding:15px 10px;
+        margin-left: 40.4px;
+    }
+
+}
