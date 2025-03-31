@@ -1,0 +1,8 @@
+.map-nav {
+    background: var(--map-nav-background);
+    text-align: center;
+    border: 2px solid var(--border-block-color);
+    padding: 15px;
+    margin: 2px;
+    overflow: hidden;
+}

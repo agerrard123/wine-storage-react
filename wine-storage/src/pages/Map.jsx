@@ -1,16 +1,22 @@
 import MapItem from '../components/MapItem';
+import MapNav from '../components/MapNav';
 import './css/Map.css';
 
 function Map() {
     return (
         <>
             <section className = "rows">
-                <p id = "empty"></p>
-                <p id = "map-nav">1</p>
-                <p id = "map-nav">2</p>
-                <p id = "map-nav">3</p>
-                <p id = "map-nav">4</p>
-                <p id = "map-nav">A</p>
+                <MapNav/>
+                <MapNav
+                    name = "1"/>
+                <MapNav
+                    name = "2"/>
+                <MapNav
+                    name = "3"/>
+                <MapNav
+                    name = "4"/>
+                <MapNav
+                    name = "A"/>
                 <MapItem
                     name = "Gundlach Bundschu"
                     image="images/wine01.jpg"/>
@@ -23,7 +29,8 @@ function Map() {
                 <MapItem
                     name = "Pinot Noir"
                     image="images/wine04.jpg"/>
-                <p id = "map-nav">B</p>
+                <MapNav
+                    name = "B"/>
                 <MapItem
                     name = "Pinot Noir"
                     image="images/wine05.jpg"/>
@@ -36,7 +43,8 @@ function Map() {
                 <MapItem
                     name = "Reserve"
                     image="images/wine08.jpg"/>
-                <p id = "map-nav">C</p>
+                <MapNav
+                    name = "C"/>
                 <MapItem
                     name = "Grenache Rose"
                     image="images/wine09.jpg"/>
