@@ -38,6 +38,10 @@
     color:var(--nav-hover-color);
 }
 
+.hide-small {
+    display: none;
+}
+
 @media screen and (min-width: 900px) {
     
     #main-nav ul {
@@ -53,5 +57,9 @@
 
     #toggle-nav {
         display: none;
+    }
+
+    .hide-small {
+        display: flex;
     }
 }
