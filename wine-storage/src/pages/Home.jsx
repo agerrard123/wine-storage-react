@@ -1,7 +1,7 @@
 import './css/Home.css';
 import GrapeVine from "../images/grape-vine.jpg";
 import NewsArticles from '../components/NewsArticles';
-import ContactUs from '../components/ContactUs';
+import Contact from '../components/Contact';
 
 function Home() {
 
@@ -27,8 +27,8 @@ function Home() {
           </section>
         </div>
         <div>
-          <h2 id = "contact-us-header">Contact Us</h2>
-          <ContactUs />
+          <h2 id = "contact-header">Contact Us</h2>
+          <Contact />
         </div>
       </div>
     </>

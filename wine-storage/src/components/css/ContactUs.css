@@ -1,8 +1,0 @@
-:root {
-    --header-footer-color: rgb(88, 47, 14);
-}
-
-#contact-us-header {
-    text-align: center;
-    color: var(--header-footer-color);
-}
