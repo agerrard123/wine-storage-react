@@ -24,7 +24,7 @@ function CellarItem(props) {
                         {props.region} <br/>
                         {props.description} <br/>
                         {props.grape} <br/>
-                        {props.location} <br/>
+                        {props.cellarLocation} <br/>
                     </p>
                 </section>
                 <div id = "wine-form"><button id="remove-wine-form">Remove Wine</button></div>

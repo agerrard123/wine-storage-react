@@ -1,8 +1,21 @@
 import './css/YourCellar.css';
+import React, {useState, useEffect} from "react";
+import axios from "axios";
 import Charcuterie from "../images/wine-charcudery.jpg";
 import CellarItem from "../components/CellarItem";
 
 function YourCellar() {
+    const [wineItems, setWineItem] = useState([]);
+
+    useEffect(() => {
+        (async() => {
+            const response = await axios.get(
+                "https://agerrard123.github.io/csce242/projects/part7/wineStorage.json"
+            );
+            setWineItem(response.data);
+        })();
+    }, []);
+
     return (
         <>
             <div id = "img-div" className = "picture">
@@ -16,66 +29,18 @@ function YourCellar() {
             </div>
             <div id = "wine-form"><button id="add-wine-form">Use this form to add wine to your cellar</button></div>
             <div id = "wine-list" className = "blocks">
-                <CellarItem
-                    image = "images/wine01.jpg"
-                    winery = "Gundlach Bundschu"
-                    vintage = "2010"
-                    price = "40.00"
-                    country = "United States"
-                    region = "California"
-                    description = "Red Wine"
-                    grape = "Cabernet Sauvignon"
-                    location = "A1"/>
-                <CellarItem
-                    image = "images/wine01.jpg"
-                    winery = "Gundlach Bundschu"
-                    vintage = "2010"
-                    price = "40.00"
-                    country = "United States"
-                    region = "California"
-                    description = "Red Wine"
-                    grape = "Cabernet Sauvignon"
-                    location = "A1"/>
-                <CellarItem
-                    image = "images/wine01.jpg"
-                    winery = "Gundlach Bundschu"
-                    vintage = "2010"
-                    price = "40.00"
-                    country = "United States"
-                    region = "California"
-                    description = "Red Wine"
-                    grape = "Cabernet Sauvignon"
-                    location = "A1"/>
-                <CellarItem
-                    image = "images/wine01.jpg"
-                    winery = "Gundlach Bundschu"
-                    vintage = "2010"
-                    price = "40.00"
-                    country = "United States"
-                    region = "California"
-                    description = "Red Wine"
-                    grape = "Cabernet Sauvignon"
-                    location = "A1"/>
-                <CellarItem
-                    image = "images/wine01.jpg"
-                    winery = "Gundlach Bundschu"
-                    vintage = "2010"
-                    price = "40.00"
-                    country = "United States"
-                    region = "California"
-                    description = "Red Wine"
-                    grape = "Cabernet Sauvignon"
-                    location = "A1"/>
-                <CellarItem
-                    image = "images/wine01.jpg"
-                    winery = "Gundlach Bundschu"
-                    vintage = "2010"
-                    price = "40.00"
-                    country = "United States"
-                    region = "California"
-                    description = "Red Wine"
-                    grape = "Cabernet Sauvignon"
-                    location = "A1"/>
+                {wineItems.map((wineInfo) => {
+                    return <CellarItem
+                        image = {wineInfo.image}
+                        winery = {wineInfo.winery}
+                        vintage = {wineInfo.vintage}
+                        price = {wineInfo.price}
+                        country = {wineInfo.country}
+                        region = {wineInfo.region}
+                        description = {wineInfo.description}
+                        grape = {wineInfo.grape}
+                        cellarLocation = {wineInfo.cellarLocation} />;
+                })};
             </div>
         </>
     );
