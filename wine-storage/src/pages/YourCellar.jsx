@@ -10,7 +10,7 @@ function YourCellar() {
     useEffect(() => {
         (async() => {
             const response = await axios.get(
-                "http://localhost:3001/api/wines"
+                "https://wine-storage-server.onrender.com/api/wines"
             );
             setWineItem(response.data);
         })();

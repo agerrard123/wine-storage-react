@@ -4,7 +4,7 @@ function CellarItem(props) {
     return (
         <>
             <section className = "style">
-                <img id = "image" src={"http://localhost:3001/images/" + props.image} alt = "wine pic"/>
+                <img id = "image" src={"https://wine-storage-server.onrender.com/images/" + props.image} alt = "wine pic"/>
                 <section id = "p-container">
                     <p className = "wine-p-1">
                         Winery: <br/>
