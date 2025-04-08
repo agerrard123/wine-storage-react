@@ -5,7 +5,7 @@ import Charcuterie from "../images/wine-charcudery.jpg";
 import CellarItem from "../components/CellarItem";
 import AddWine from "../components/AddWine";
 
-function YourCellar() {
+const YourCellar = () => {
     const [wineItems, setWineItem] = useState([]);
     const [showAddDialog, setShowAddDialog] = useState(false);
 

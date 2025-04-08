@@ -1,5 +1,5 @@
 import "./css/AddWine.css";
-// import "./css/Dialog.css";
+import "./css/Dialog.css";
 import React, {useState} from "react";
 
 const AddWine = (props) => {
@@ -54,11 +54,9 @@ const AddWine = (props) => {
                         </p>
 
                         <section className="columns">
-                            <p>
                                 <p id="img-prev-section">
                                     <img id="img-prev" alt="pic"></img>
                                 </p>
-                            </p>
                             <p id="img-upload">
                                 <label htmlFor="img">Upload Image:</label>
                                 <input type="file" id="img" accept="image/*"/>
