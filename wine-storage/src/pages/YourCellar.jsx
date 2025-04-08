@@ -43,8 +43,8 @@ const YourCellar = () => {
             {showAddDialog?(<AddWine closeAddDialog = {closeAddDialog}/>) : ("")}
 
             <div id = "wine-list" className = "blocks">
-                {wineItems.map((wineInfo) => {
-                    return <CellarItem
+                {wineItems.map((wineInfo) => (
+                    <CellarItem
                         image = {wineInfo.image}
                         winery = {wineInfo.winery}
                         vintage = {wineInfo.vintage}
@@ -53,8 +53,8 @@ const YourCellar = () => {
                         region = {wineInfo.region}
                         description = {wineInfo.description}
                         grape = {wineInfo.grape}
-                        cellarLocation = {wineInfo.cellarLocation} />;
-                })};
+                        cellarLocation = {wineInfo.cellarLocation} />
+                ))};
             </div>
         </>
     );
