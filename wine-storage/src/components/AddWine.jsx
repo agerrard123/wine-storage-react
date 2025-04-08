@@ -34,13 +34,13 @@ const AddWine = (props) => {
                         <h3>Add a New Wine to Your Cellar</h3>
 
                         <p>
-                            <label htmlFor="name">Winery: </label>
-                            <input type="text" id="name" name="name" required min="3"></input>
+                            <label htmlFor="winery">Winery: </label>
+                            <input type="text" id="winery" name="winery" required min="3"></input>
                         </p>
 
                         <p>
-                            <label htmlFor="year">Vintage: </label>
-                            <input type="number" id="year" name="year" min="1900" required></input>
+                            <label htmlFor="vintage">Vintage: </label>
+                            <input type="number" id="vintage" name="vintage" min="1900" required></input>
                         </p>
 
                         <p>
@@ -69,8 +69,8 @@ const AddWine = (props) => {
                         </p>
 
                         <p>
-                            <label htmlFor="cellarLoc">Cellar Location: </label>
-                            <input type="text" id="cellarLoc" name="cellarLoc" min="2" required></input>
+                            <label htmlFor="cellarLocation">Cellar Location: </label>
+                            <input type="text" id="cellarLocation" name="cellarLocation" min="2" required></input>
                         </p>
 
                         <section className="columns">
