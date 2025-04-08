@@ -31,34 +31,54 @@ const AddWine = (props) => {
                 <div className="w3-container">
                     <span id="dialog-close" className="w3-button w3-display-topright" onClick = {props.closeAddDialog}>&times;</span>
                     <form id="add-property-form" onSubmit = {addToServer}>
-                        <h3>Create New Property</h3>
+                        <h3>Add a New Wine to Your Cellar</h3>
 
                         <p>
-                            <label htmlFor="name">Property Name:</label>
+                            <label htmlFor="name">Winery: </label>
                             <input type="text" id="name" name="name" required min="3"></input>
                         </p>
 
                         <p>
-                            <label htmlFor="size">Size:</label>
-                            <input type="number" id="size" name="size" min="0" required></input>
+                            <label htmlFor="year">Vintage: </label>
+                            <input type="number" id="year" name="year" min="1900" required></input>
                         </p>
 
                         <p>
-                            <label htmlFor="bedrooms">Bedrooms:</label>
-                            <input type="number" id="bedrooms" name="bedrooms" min="0" required></input>
+                            <label htmlFor="price">Price: </label>
+                            <input type="number" id="price" name="price" min="0" required></input>
                         </p>
 
                         <p>
-                            <label htmlFor="bathrooms">Bathrooms:</label>
-                            <input type="number" id="bathrooms" name="bathrooms" min="0" required></input>
+                            <label htmlFor="country">Country: </label>
+                            <input type="text" id="country" name="country" min="3" required></input>
+                        </p>
+
+                        <p>
+                            <label htmlFor="region">Region: </label>
+                            <input type="text" id="region" name="region" min="3" required></input>
+                        </p>
+
+                        <p>
+                            <label htmlFor="description">Description: </label>
+                            <input type="text" id="description" name="description" min="3" required></input>
+                        </p>
+
+                        <p>
+                            <label htmlFor="grape">Grape: </label>
+                            <input type="text" id="grape" name="grape" min="3" required></input>
+                        </p>
+
+                        <p>
+                            <label htmlFor="cellarLoc">Cellar Location: </label>
+                            <input type="text" id="cellarLoc" name="cellarLoc" min="2" required></input>
                         </p>
 
                         <section className="columns">
-                                <p id="img-prev-section">
+                                {/* <p id="img-prev-section">
                                     <img id="img-prev" alt="pic"></img>
-                                </p>
+                                </p> */}
                             <p id="img-upload">
-                                <label htmlFor="img">Upload Image:</label>
+                                <label htmlFor="img">Upload Image: </label>
                                 <input type="file" id="img" accept="image/*"/>
                             </p>
                         </section>
