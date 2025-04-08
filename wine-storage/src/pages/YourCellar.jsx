@@ -3,9 +3,11 @@ import React, {useState, useEffect} from "react";
 import axios from "axios";
 import Charcuterie from "../images/wine-charcudery.jpg";
 import CellarItem from "../components/CellarItem";
+import AddWine from "../components/AddWine";
 
 function YourCellar() {
     const [wineItems, setWineItem] = useState([]);
+    const [showAddDialog, setShowAddDialog] = useState(false);
 
     useEffect(() => {
         (async() => {
@@ -15,6 +17,14 @@ function YourCellar() {
             setWineItem(response.data);
         })();
     }, []);
+
+    const openAddDialog = () => {
+        setShowAddDialog(true);
+    }
+
+    const closeAddDialog = () => {
+        setShowAddDialog(false);
+    }
 
     return (
         <>
@@ -27,7 +37,10 @@ function YourCellar() {
                     </div>
                 </section>
             </div>
-            <div id = "wine-form"><button id="add-wine-form">Use this form to add wine to your cellar</button></div>
+            <div id = "wine-form"><button id="add-wine-form" onClick = {openAddDialog}>Use this form to add wine to your cellar</button></div>
+
+            {showAddDialog?(<AddWine closeAddDialog = {closeAddDialog}/>) : ("")}
+
             <div id = "wine-list" className = "blocks">
                 {wineItems.map((wineInfo) => {
                     return <CellarItem
