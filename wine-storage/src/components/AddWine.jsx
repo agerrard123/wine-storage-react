@@ -8,7 +8,7 @@ const AddWine = (props) => {
 
     const uploadImage = (event) => {
         setPrevSrc(URL.createObjectURL(event.target.files[0]));
-    }
+    };
 
     const addToServer = async (event) => {
         event.preventDefault(); //stops us from going to another page or refreshing
@@ -80,9 +80,14 @@ const AddWine = (props) => {
                         </p>
 
                         <section className="columns">
-                                {/* <p id="img-prev-section">
-                                    {prevSrc!==""?( <img id="img-prev" alt="pic" src={prevSrc}></img>):("")}
-                                </p> */}
+                            <div>
+                                <p id="img-prev-section">
+                                    {prevSrc!==""?
+                                    (<img id = "img-prev" src={prevSrc} alt= "new pic"></img>):
+                                    ("")
+                                    } 
+                                </p>
+                            </div> 
                             <p id="img-upload">
                                 <label htmlFor="img">Upload Image: </label>
                                 <input type="file" id="img" name="img" accept="image/*" onChange={uploadImage}/>
