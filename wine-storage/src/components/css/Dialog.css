@@ -98,9 +98,30 @@
   }
 
   .upload-image {
-    margin-left: 80px;
+    margin-left: 12px;
+    justify-content: space-between;
+    width: 5px;
   }
 
   #submit {
     text-align: center;
+  }
+
+  /* #img {
+    color: var(--nav-background-color);
+  } */
+
+  #img-upload, #img {
+    display: flex;
+    white-space: nowrap;
+    color: var(--nav-background-color);
+  }
+
+  /* #img-upload {
+    width: 5px;
+  } */
+
+  #img-prev-section {
+    margin-top: 35px;
+    margin-left: 70px
   }

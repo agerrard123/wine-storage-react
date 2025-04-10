@@ -72,7 +72,7 @@ const AddWine = (props) => {
                                     <p id="img-prev-section">
                                         {prevSrc!==""?
                                         (<img id = "img-prev" src={prevSrc} alt= "new pic"></img>):
-                                        ("")
+                                        (<img id="img-prev" src="https://placehold.co/150x200/white/brown" alt="placeholder" />)
                                         } 
                                     </p>
                                 </div> 
