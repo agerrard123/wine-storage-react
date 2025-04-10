@@ -1,43 +1,6 @@
-/* @import url("https://www.w3schools.com/w3css/4/w3.css");
-
-#dialog-section {
-  position: relative;
-}
-
-#add-dialog,
-#edit-dialog,
-#delete-dialog {
-  display: block;
-}
-
-#delete-content {
-  margin-bottom: 10px;
-}
-
-#img-prev {
-  max-width: 100%;
-}
-
-#delete-dialog button {
-  margin-right: 10px;
-}
-
-@media only screen and (min-width: 600px) {
-  #img-prev-section {
-    flex: 1;
-  }
-
-  #img-prev {
-    max-width: 100%;
-  }
-
-  #img-upload {
-    flex: 6;
-  }
-} */
-
 :root {
-  --wine-block-background-color: rgba(177, 143, 123, 0.7);
+  --form-background-color: rgba(177, 143, 123, 1);
+  --nav-background-color: #451C01;
 }
 
 .w3-modal {
@@ -102,5 +65,42 @@
 
   /* Styling the actual form */
   .w3-modal-content {
-    background: var(--wine-block-background-color);
+    background: var(--form-background-color);
+  }
+
+  #form-dialog-head {
+    color: var(--nav-background-color);
+    text-align: center;
+  }
+
+  #form-container {
+    /* max-width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+    /* margin: auto; */
+  }
+
+  #form-p-1 {
+    color: var(--nav-background-color);
+    font-size: 17.5px;
+    /* font-weight: bold; */
+    /* text-align: right; */
+  }
+
+  #form-p-1, #form-p-2 {
+    /* text-align: left; */
+    white-space: nowrap;
+  }
+
+  #columns {
+    display: flex;
+  }
+
+  .upload-image {
+    margin-left: 80px;
+  }
+
+  #submit {
+    text-align: center;
   }
