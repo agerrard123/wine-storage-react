@@ -27,6 +27,10 @@ const YourCellar = () => {
         setShowAddDialog(false);
     }
 
+    const updateWine = (wine) => {
+        setWineItem((wines)=>[...wines, wine]);
+    };
+
     return (
         <>
             <div id = "img-div" className = "picture">
@@ -40,7 +44,10 @@ const YourCellar = () => {
             </div>
             <div id = "wine-form"><button id="add-wine-form" onClick = {openAddDialog}>Use this form to add wine to your cellar</button></div>
 
-            {showAddDialog?(<AddWine closeAddDialog = {closeAddDialog}/>) : ("")}
+            {showAddDialog?(<AddWine 
+                            closeAddDialog = {closeAddDialog}
+                            updateWine = {updateWine}
+                            />) : ("")}
 
             <div id = "wine-list" className = "blocks">
                 {wineItems.map((wineInfo) => (

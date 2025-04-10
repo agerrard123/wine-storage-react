@@ -26,6 +26,7 @@ const AddWine = (props) => {
             setResult("Wine added successfully");
             event.target.reset();
             props.closeAddDialog();
+            props.updateWine(await response.json());
         } else {
             setResult("Error adding wine");
         }
