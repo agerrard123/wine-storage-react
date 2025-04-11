@@ -65,7 +65,7 @@ const AddWine = (props) => {
                             </div>
                             <section className="upload-image">
                                 <p id="img-upload">
-                                    <label htmlFor="img">Upload Image: </label>
+                                    <label id = "img-text" htmlFor="img">Upload Image: </label>
                                     <input type="file" id="img" name="img" accept="image/*" onChange={uploadImage}/>
                                 </p>
                                 <div>

@@ -14,6 +14,11 @@
     height: auto;
 }
 
+#cellar-image {
+    max-width: 150px;
+    max-height: 200px;
+}
+
 #wine-form {
     text-align: center;
 }
