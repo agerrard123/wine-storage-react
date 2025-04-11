@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wine-storage-react/static/css/main.57c1622c.css",
-    "main.js": "/wine-storage-react/static/js/main.37c55feb.js",
+    "main.css": "/wine-storage-react/static/css/main.b5fc1ee2.css",
+    "main.js": "/wine-storage-react/static/js/main.bd69fcbd.js",
     "static/media/vineyard-field.jpg": "/wine-storage-react/static/media/vineyard-field.40a9350fa98c0e041f46.jpg",
     "static/media/vertical-grapes.jpg": "/wine-storage-react/static/media/vertical-grapes.4a6a592b6d03afbac961.jpg",
     "static/media/black-white-field.jpg": "/wine-storage-react/static/media/black-white-field.ac77f6c6458eef52fd28.jpg",
@@ -15,11 +15,11 @@
     "static/media/history01.jpg": "/wine-storage-react/static/media/history01.be1cdd378a1cc6f052d8.jpg",
     "static/media/history02.jpg": "/wine-storage-react/static/media/history02.59a100072438fd9a7fef.jpg",
     "index.html": "/wine-storage-react/index.html",
-    "main.57c1622c.css.map": "/wine-storage-react/static/css/main.57c1622c.css.map",
-    "main.37c55feb.js.map": "/wine-storage-react/static/js/main.37c55feb.js.map"
+    "main.b5fc1ee2.css.map": "/wine-storage-react/static/css/main.b5fc1ee2.css.map",
+    "main.bd69fcbd.js.map": "/wine-storage-react/static/js/main.bd69fcbd.js.map"
   },
   "entrypoints": [
-    "static/css/main.57c1622c.css",
-    "static/js/main.37c55feb.js"
+    "static/css/main.b5fc1ee2.css",
+    "static/js/main.bd69fcbd.js"
   ]
 }
