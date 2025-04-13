@@ -78,8 +78,8 @@ const AddWine = (props) => {
                                         } 
                                     </p>
                                 </div> 
+                                <p id = "result">{result}</p>
                             </section>
-                            <p>{result}</p>
                         </section>
                         <p id = "submit">
                             <button type="submit">Submit</button>
