@@ -16,20 +16,24 @@ const EditWineItem = (props) => {
         const formData = new FormData(event.target);
         console.log(...formData);
     
-        const response = await fetch(
-            `http://localhost:3001/api/wines/${props._id}`,{
-            method:"PUT",
-            body:formData
-        });
+        if (props._id) {
+            const response = await fetch(
+                `http://localhost:3001/api/wines/${props._id}`,{
+                method:"PUT",
+                body:formData
+            });
 
-        if(response.status === 200){
-            setResult("Wine editted successfully");
-            event.target.reset();
-            props.closeEditDialog();
-            props.editWineItem(await response.json());
-        }
-        else {
-            setResult("Error editting your wine");
+            if(response.status === 200){
+                setResult("Wine editted successfully");
+                event.target.reset();
+                props.closeEditDialog();
+                props.editWineItem(await response.json());
+            }
+            else {
+                setResult("Error editting your wine");
+            }
+        } else {
+            setResult("Error: Wine ID is undefined");
         }
     };
 
