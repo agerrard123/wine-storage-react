@@ -161,3 +161,18 @@
     margin-left: 69px;
     margin-top: 20px;
   }
+
+  #delete-message {
+    color: var(--nav-background-color);
+  }
+
+  #delete-buttons {
+    background-color: var(--nav-background-color);
+    color: var(--text-color);
+    padding: 5px;
+    margin-left: 5px;
+  }
+
+  #delete-buttons:hover {
+    color: var(--nav-hover-color);
+  }
