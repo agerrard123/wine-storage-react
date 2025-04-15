@@ -15,8 +15,9 @@ const EditWineItem = (props) => {
     
         const formData = new FormData(event.target);
         console.log(...formData);
-    
+        console.log("What is the id " + props._id);
         if (props._id) {
+            console.log("i made it");
             const response = await fetch(
                 `http://localhost:3001/api/wines/${props._id}`,{
                 method:"PUT",

@@ -52,6 +52,7 @@ const YourCellar = () => {
             <div id = "wine-list" className = "blocks">
                 {wineItems.map((wineInfo) => (
                     <CellarItem
+                        _id = {wineInfo._id}
                         image = {wineInfo.image}
                         winery = {wineInfo.winery}
                         vintage = {wineInfo.vintage}
