@@ -65,8 +65,8 @@ function CellarItem(props) {
 
                     <section>
                         <img id = "cellar-image" src = {
-                            // "https://wine-storage-server.onrender.com/images/"
-                            "http://localhost:3001/images/"
+                            "https://wine-storage-server.onrender.com/images/"
+                            // "http://localhost:3001/images/"
                             + wineItem.image} alt = "wine pic"/>
                             
                         <section id = "p-container">

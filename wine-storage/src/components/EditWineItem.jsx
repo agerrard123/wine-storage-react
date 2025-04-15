@@ -19,7 +19,8 @@ const EditWineItem = (props) => {
         if (props._id) {
             console.log("i made it");
             const response = await fetch(
-                `http://localhost:3001/api/wines/${props._id}`,{
+                `https://wine-storage-server.onrender.com/api/wines${props._id}`, {
+                // `http://localhost:3001/api/wines/${props._id}`,{
                 method:"PUT",
                 body:formData
             });
@@ -79,8 +80,8 @@ const EditWineItem = (props) => {
                                         {prevSrc!==""?
                                         (<img id = "img-prev" src={prevSrc} alt= "new pic"></img>):
                                         (<img id="img-prev" src = {
-                                            // "https://wine-storage-server.onrender.com/images/"
-                                            "http://localhost:3001/images/"
+                                            "https://wine-storage-server.onrender.com/images/"
+                                            // "http://localhost:3001/images/"
                                             + props.image} alt="placeholder" />)
                                         } 
                                     </p>
