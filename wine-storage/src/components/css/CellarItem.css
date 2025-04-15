@@ -51,6 +51,7 @@
 }
 
 #edit-wine-form {
+    margin-right: 5px;
     text-align: center;
     padding: 5px;
     background: var(--nav-background-color);
