@@ -18,8 +18,8 @@ const AddWine = (props) => {
         console.log(...formData);
         
         const response = await fetch(
-            "https://wine-storage-server.onrender.com/api/wines", {
-            // "http://localhost:3001/api/wines", {
+            // "https://wine-storage-server.onrender.com/api/wines", {
+            "http://localhost:3001/api/wines", {
             "method":"POST",
             "body":formData
         });
