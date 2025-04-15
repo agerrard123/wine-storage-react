@@ -67,7 +67,7 @@ function CellarItem(props) {
                         <img id = "cellar-image" src = {
                             // "https://wine-storage-server.onrender.com/images/"
                             "http://localhost:3001/images/"
-                            + props.image} alt = "wine pic"/>
+                            + wineItem.image} alt = "wine pic"/>
                             
                         <section id = "p-container">
                             <p className = "wine-p-1">
@@ -81,14 +81,14 @@ function CellarItem(props) {
                                 Cellar Location: <br/>
                             </p>
                             <p className = "wine-p-2">
-                                {props.winery} <br/>
-                                {props.vintage} <br/>
-                                {props.price} <br/>
-                                {props.country} <br/>
-                                {props.region} <br/>
-                                {props.description} <br/>
-                                {props.grape} <br/>
-                                {props.cellarLocation} <br/>
+                                {wineItem.winery} <br/>
+                                {wineItem.vintage} <br/>
+                                {wineItem.price} <br/>
+                                {wineItem.country} <br/>
+                                {wineItem.region} <br/>
+                                {wineItem.description} <br/>
+                                {wineItem.grape} <br/>
+                                {wineItem.cellarLocation} <br/>
                             </p>
                         </section>
                         {/* <div id = "wine-form"><button id="remove-wine-form">Remove Wine</button></div> */}
