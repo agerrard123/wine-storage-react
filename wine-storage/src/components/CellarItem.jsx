@@ -93,12 +93,14 @@ function CellarItem(props) {
                         </section>
                         {/* <div id = "wine-form"><button id="remove-wine-form">Remove Wine</button></div> */}
                         <section id="change-buttons">
-                            <a href="#" onClick={openEditDialog} >
+                            {/* <a href="#" onClick={openEditDialog} >
                                 &#9998;
-                            </a>
-                            <a href="#" onClick={openDeleteDialog}>
+                            </a> */}
+                            <button id="edit-wine-form" onClick = {openEditDialog}>Edit Wine</button>
+                            {/* <a href="#" onClick={openDeleteDialog}>
                                 &#x2715;
-                            </a>
+                            </a> */}
+                            <button id="remove-wine-form" onClick = {openDeleteDialog}>Delete Wine</button>
                         </section>
                     </section>
                 </div>
