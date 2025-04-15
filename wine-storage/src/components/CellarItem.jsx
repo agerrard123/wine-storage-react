@@ -36,7 +36,7 @@ function CellarItem(props) {
     return (
         <>
             {showWineItem?(
-                <div>
+                <div className = "style">
                     {showDeleteDialog?(
                     <DeleteWineItem
                     winery = {wineItem.winery}
@@ -58,10 +58,12 @@ function CellarItem(props) {
                     grape={wineItem.grape}
                     cellarLocation={wineItem.cellarLocation}
                     image={wineItem.image}
+                    closeEditDialog = {closeEditDialog}
+                    editWineItem = {editWineItem}
                     />
                     ):("")}
 
-                    <section className = "style">
+                    <section>
                         <img id = "cellar-image" src = {
                             // "https://wine-storage-server.onrender.com/images/"
                             "http://localhost:3001/images/"
