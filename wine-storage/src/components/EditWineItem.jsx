@@ -19,7 +19,7 @@ const EditWineItem = (props) => {
         if (props._id) {
             console.log("i made it");
             const response = await fetch(
-                `https://wine-storage-server.onrender.com/api/wines${props._id}`, {
+                `https://wine-storage-server.onrender.com/api/wines/${props._id}`, {
                 // `http://localhost:3001/api/wines/${props._id}`,{
                 method:"PUT",
                 body:formData
