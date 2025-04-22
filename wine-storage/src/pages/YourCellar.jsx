@@ -62,7 +62,7 @@ const YourCellar = () => {
                         description = {wineInfo.description}
                         grape = {wineInfo.grape}
                         cellarLocation = {wineInfo.cellarLocation} />
-                ))};
+                ))}
             </div>
         </>
     );
